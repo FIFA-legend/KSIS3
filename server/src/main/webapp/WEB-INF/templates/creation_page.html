@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:form="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Create File</title>
+</head>
+<body>
+<form method="POST" action="/files/4/upload" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td><form:label path="file">Select a file to upload</form:label></td>
+            <td><input type="file" name="file" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit" /></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
